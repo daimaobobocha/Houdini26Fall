@@ -29,3 +29,48 @@ Thumbs.db
 # Python
 __pycache__/
 *.pyc
+
+# ================================
+# Unreal Engine 5
+# ================================
+
+# Generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+
+# Visual Studio generated files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Build output
+Build/Receipts/
+Build/*/FileOpenOrder/
+
+# User-specific files
+*.user
+*.userprefs
+
+# Logs / crash dumps
+*.log
+*.dmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
