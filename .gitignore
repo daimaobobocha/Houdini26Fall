@@ -1,0 +1,31 @@
+# Houdini backups / autosaves
+backup/
+autosave/
+*.hip~
+*.hiplc~
+*.hipnc~
+
+# Houdini temporary files
+*.tmp
+*.temp
+
+# Simulation / render caches
+cache/
+caches/
+sim/
+render/
+renders/
+
+# Common cache formats
+*.bgeo
+*.bgeo.sc
+*.sim
+*.vdb
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
