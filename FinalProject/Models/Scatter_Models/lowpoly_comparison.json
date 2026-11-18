@@ -1,0 +1,266 @@
+[
+  {
+    "name": "SM_01_OilBarrel",
+    "original_faces": 4578,
+    "target_faces": 458,
+    "lowpoly_faces": 458,
+    "retained_percent": 10.0,
+    "triangles": 898,
+    "uvs": 899,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      59.2,
+      88.266,
+      59.2
+    ],
+    "lowpoly_dimensions_cm": [
+      59.073,
+      88.266,
+      59.073
+    ]
+  },
+  {
+    "name": "SM_02_SuspensionSpring_Large",
+    "original_faces": 4994,
+    "target_faces": 499,
+    "lowpoly_faces": 536,
+    "retained_percent": 10.73,
+    "triangles": 1076,
+    "uvs": 1104,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      19.7,
+      39.998,
+      19.7
+    ],
+    "lowpoly_dimensions_cm": [
+      19.7,
+      39.717,
+      19.605
+    ]
+  },
+  {
+    "name": "SM_03_SuspensionSpring_Small",
+    "original_faces": 4610,
+    "target_faces": 461,
+    "lowpoly_faces": 434,
+    "retained_percent": 9.41,
+    "triangles": 872,
+    "uvs": 906,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      12.9,
+      26.999,
+      12.9
+    ],
+    "lowpoly_dimensions_cm": [
+      12.869,
+      26.999,
+      12.838
+    ]
+  },
+  {
+    "name": "SM_04_IBeam_100cm",
+    "original_faces": 154,
+    "target_faces": 15,
+    "lowpoly_faces": 15,
+    "retained_percent": 9.74,
+    "triangles": 44,
+    "uvs": 72,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      12.0,
+      16.0,
+      100.0
+    ],
+    "lowpoly_dimensions_cm": [
+      12.0,
+      16.0,
+      100.0
+    ]
+  },
+  {
+    "name": "SM_05_IBeam_50cm",
+    "original_faces": 154,
+    "target_faces": 15,
+    "lowpoly_faces": 15,
+    "retained_percent": 9.74,
+    "triangles": 44,
+    "uvs": 72,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      12.0,
+      16.0,
+      50.0
+    ],
+    "lowpoly_dimensions_cm": [
+      12.0,
+      16.0,
+      50.0
+    ]
+  },
+  {
+    "name": "SM_06_IBeam_30cm",
+    "original_faces": 154,
+    "target_faces": 15,
+    "lowpoly_faces": 15,
+    "retained_percent": 9.74,
+    "triangles": 44,
+    "uvs": 72,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      12.0,
+      16.0,
+      30.0
+    ],
+    "lowpoly_dimensions_cm": [
+      12.0,
+      16.0,
+      30.0
+    ]
+  },
+  {
+    "name": "SM_07_BrakeRotor",
+    "original_faces": 12538,
+    "target_faces": 1254,
+    "lowpoly_faces": 1246,
+    "retained_percent": 9.94,
+    "triangles": 2452,
+    "uvs": 2854,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      33.0,
+      5.8,
+      33.0
+    ],
+    "lowpoly_dimensions_cm": [
+      32.819,
+      5.8,
+      32.955
+    ]
+  },
+  {
+    "name": "SM_08_TransmissionGear",
+    "original_faces": 4544,
+    "target_faces": 454,
+    "lowpoly_faces": 460,
+    "retained_percent": 10.12,
+    "triangles": 800,
+    "uvs": 1484,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      29.094,
+      6.0,
+      29.194
+    ],
+    "lowpoly_dimensions_cm": [
+      29.019,
+      6.0,
+      29.084
+    ]
+  },
+  {
+    "name": "SM_09_PistonConnectingRod",
+    "original_faces": 3722,
+    "target_faces": 372,
+    "lowpoly_faces": 378,
+    "retained_percent": 10.16,
+    "triangles": 758,
+    "uvs": 990,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      10.5,
+      44.0,
+      10.0
+    ],
+    "lowpoly_dimensions_cm": [
+      10.5,
+      43.966,
+      9.808
+    ]
+  },
+  {
+    "name": "SM_10_WheelWithTire",
+    "original_faces": 31332,
+    "target_faces": 3133,
+    "lowpoly_faces": 3126,
+    "retained_percent": 9.98,
+    "triangles": 6124,
+    "uvs": 8488,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      64.86,
+      21.0,
+      64.487
+    ],
+    "lowpoly_dimensions_cm": [
+      64.86,
+      21.0,
+      64.487
+    ]
+  },
+  {
+    "name": "SM_11_BareWheelRim",
+    "original_faces": 15332,
+    "target_faces": 1533,
+    "lowpoly_faces": 1527,
+    "retained_percent": 9.96,
+    "triangles": 3036,
+    "uvs": 2782,
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    },
+    "original_dimensions_cm": [
+      41.4,
+      21.0,
+      41.4
+    ],
+    "lowpoly_dimensions_cm": [
+      41.4,
+      21.0,
+      41.4
+    ]
+  }
+]

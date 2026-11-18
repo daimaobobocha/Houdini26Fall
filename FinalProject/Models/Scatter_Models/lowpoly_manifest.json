@@ -1,0 +1,257 @@
+[
+  {
+    "group": "SM_01_OilBarrel_GRP",
+    "mesh": "SM_01_OilBarrel_GEO",
+    "faces": 458,
+    "triangles": 898,
+    "uvs": 899,
+    "dimensions_cm": [
+      59.073,
+      88.266,
+      59.073
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_02_SuspensionSpring_Large_GRP",
+    "mesh": "SM_02_SuspensionSpring_Large_GEO",
+    "faces": 536,
+    "triangles": 1076,
+    "uvs": 1104,
+    "dimensions_cm": [
+      19.7,
+      39.717,
+      19.605
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_03_SuspensionSpring_Small_GRP",
+    "mesh": "SM_03_SuspensionSpring_Small_GEO",
+    "faces": 434,
+    "triangles": 872,
+    "uvs": 906,
+    "dimensions_cm": [
+      12.869,
+      26.999,
+      12.838
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_04_IBeam_100cm_GRP",
+    "mesh": "SM_04_IBeam_100cm_GEO",
+    "faces": 15,
+    "triangles": 44,
+    "uvs": 72,
+    "dimensions_cm": [
+      12.0,
+      16.0,
+      100.0
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_05_IBeam_50cm_GRP",
+    "mesh": "SM_05_IBeam_50cm_GEO",
+    "faces": 15,
+    "triangles": 44,
+    "uvs": 72,
+    "dimensions_cm": [
+      12.0,
+      16.0,
+      50.0
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_06_IBeam_30cm_GRP",
+    "mesh": "SM_06_IBeam_30cm_GEO",
+    "faces": 15,
+    "triangles": 44,
+    "uvs": 72,
+    "dimensions_cm": [
+      12.0,
+      16.0,
+      30.0
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_07_BrakeRotor_GRP",
+    "mesh": "SM_07_BrakeRotor_GEO",
+    "faces": 1246,
+    "triangles": 2452,
+    "uvs": 2854,
+    "dimensions_cm": [
+      32.819,
+      5.8,
+      32.955
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_08_TransmissionGear_GRP",
+    "mesh": "SM_08_TransmissionGear_GEO",
+    "faces": 460,
+    "triangles": 800,
+    "uvs": 1484,
+    "dimensions_cm": [
+      29.019,
+      6.0,
+      29.084
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_09_PistonConnectingRod_GRP",
+    "mesh": "SM_09_PistonConnectingRod_GEO",
+    "faces": 378,
+    "triangles": 758,
+    "uvs": 990,
+    "dimensions_cm": [
+      10.5,
+      43.966,
+      9.808
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_10_WheelWithTire_GRP",
+    "mesh": "SM_10_WheelWithTire_GEO",
+    "faces": 3126,
+    "triangles": 6124,
+    "uvs": 8488,
+    "dimensions_cm": [
+      64.86,
+      21.0,
+      64.487
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_11_BareWheelRim_GRP",
+    "mesh": "SM_11_BareWheelRim_GEO",
+    "faces": 1527,
+    "triangles": 3036,
+    "uvs": 2782,
+    "dimensions_cm": [
+      41.4,
+      21.0,
+      41.4
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_12_MotorHousing_GRP",
+    "mesh": "SM_12_MotorHousing_GEO",
+    "faces": 404,
+    "triangles": 848,
+    "uvs": 1232,
+    "dimensions_cm": [
+      32.0,
+      38.15,
+      38.7
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_13_Suspension_ControlArm_GRP",
+    "mesh": "SM_13_Suspension_ControlArm_GEO",
+    "faces": 288,
+    "triangles": 596,
+    "uvs": 778,
+    "dimensions_cm": [
+      37.6,
+      9.8,
+      38.2
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_14_Suspension_SteeringKnuckle_GRP",
+    "mesh": "SM_14_Suspension_SteeringKnuckle_GEO",
+    "faces": 266,
+    "triangles": 532,
+    "uvs": 712,
+    "dimensions_cm": [
+      23.6,
+      31.95,
+      11.4
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  },
+  {
+    "group": "SM_15_Suspension_StabilizerLink_GRP",
+    "mesh": "SM_15_Suspension_StabilizerLink_GEO",
+    "faces": 212,
+    "triangles": 456,
+    "uvs": 576,
+    "dimensions_cm": [
+      6.2,
+      33.2,
+      11.7
+    ],
+    "topology_issues": {
+      "nonManifoldEdges": 0,
+      "nonManifoldVertices": 0,
+      "laminaFaces": 0
+    }
+  }
+]

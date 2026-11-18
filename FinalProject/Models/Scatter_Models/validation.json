@@ -1,0 +1,90 @@
+[
+  {
+    "name": "SM_01_OilBarrel",
+    "vertices": 4616,
+    "faces": 4578,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 6865
+  },
+  {
+    "name": "SM_02_SuspensionSpring_Large",
+    "vertices": 5004,
+    "faces": 4994,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 7125
+  },
+  {
+    "name": "SM_03_SuspensionSpring_Small",
+    "vertices": 4620,
+    "faces": 4610,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 6507
+  },
+  {
+    "name": "SM_04_IBeam_100cm",
+    "vertices": 248,
+    "faces": 154,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 424
+  },
+  {
+    "name": "SM_05_IBeam_50cm",
+    "vertices": 248,
+    "faces": 154,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 424
+  },
+  {
+    "name": "SM_06_IBeam_30cm",
+    "vertices": 248,
+    "faces": 154,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 424
+  },
+  {
+    "name": "SM_07_BrakeRotor",
+    "vertices": 15248,
+    "faces": 12538,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 24695
+  },
+  {
+    "name": "SM_08_TransmissionGear",
+    "vertices": 5952,
+    "faces": 4544,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 13698
+  },
+  {
+    "name": "SM_09_PistonConnectingRod",
+    "vertices": 3800,
+    "faces": 3722,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 6632
+  },
+  {
+    "name": "SM_10_WheelWithTire",
+    "vertices": 37832,
+    "faces": 31332,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 63114
+  },
+  {
+    "name": "SM_11_BareWheelRim",
+    "vertices": 19272,
+    "faces": 15332,
+    "nonmanifold_edges": 0,
+    "lamina_faces": 0,
+    "uvs": 29998
+  }
+]

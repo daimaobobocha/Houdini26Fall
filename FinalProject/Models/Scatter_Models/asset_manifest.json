@@ -1,0 +1,123 @@
+[
+  {
+    "name": "SM_01_OilBarrel",
+    "group": "SM_01_OilBarrel_GRP",
+    "mesh": "SM_01_OilBarrel_GEO",
+    "dimensions_cm": [
+      59.2,
+      88.266,
+      59.2
+    ],
+    "description": "200 L style steel drum, rolled rims, two reinforcing ribs, two bung plugs"
+  },
+  {
+    "name": "SM_02_SuspensionSpring_Large",
+    "group": "SM_02_SuspensionSpring_Large_GRP",
+    "mesh": "SM_02_SuspensionSpring_Large_GEO",
+    "dimensions_cm": [
+      19.7,
+      39.998,
+      19.7
+    ],
+    "description": "Closed end automotive compression spring; continuous round wire"
+  },
+  {
+    "name": "SM_03_SuspensionSpring_Small",
+    "group": "SM_03_SuspensionSpring_Small_GRP",
+    "mesh": "SM_03_SuspensionSpring_Small_GEO",
+    "dimensions_cm": [
+      12.9,
+      26.999,
+      12.9
+    ],
+    "description": "Closed end automotive compression spring; continuous round wire"
+  },
+  {
+    "name": "SM_04_IBeam_100cm",
+    "group": "SM_04_IBeam_100cm_GRP",
+    "mesh": "SM_04_IBeam_100cm_GEO",
+    "dimensions_cm": [
+      12.0,
+      16.0,
+      100.0
+    ],
+    "description": "Continuous I section: length 100 cm, flange width 12 cm, depth 16 cm"
+  },
+  {
+    "name": "SM_05_IBeam_50cm",
+    "group": "SM_05_IBeam_50cm_GRP",
+    "mesh": "SM_05_IBeam_50cm_GEO",
+    "dimensions_cm": [
+      12.0,
+      16.0,
+      50.0
+    ],
+    "description": "Continuous I section: length 50 cm, flange width 12 cm, depth 16 cm"
+  },
+  {
+    "name": "SM_06_IBeam_30cm",
+    "group": "SM_06_IBeam_30cm_GRP",
+    "mesh": "SM_06_IBeam_30cm_GEO",
+    "dimensions_cm": [
+      12.0,
+      16.0,
+      30.0
+    ],
+    "description": "Continuous I section: length 30 cm, flange width 12 cm, depth 16 cm"
+  },
+  {
+    "name": "SM_07_BrakeRotor",
+    "group": "SM_07_BrakeRotor_GRP",
+    "mesh": "SM_07_BrakeRotor_GEO",
+    "dimensions_cm": [
+      33.0,
+      5.8,
+      33.0
+    ],
+    "description": "Vented drilled brake rotor, open center bore, five lug holes and internal cooling vanes"
+  },
+  {
+    "name": "SM_08_TransmissionGear",
+    "group": "SM_08_TransmissionGear_GRP",
+    "mesh": "SM_08_TransmissionGear_GEO",
+    "dimensions_cm": [
+      29.094,
+      6.0,
+      29.194
+    ],
+    "description": "22-tooth transmission gear with raised hub and through bore"
+  },
+  {
+    "name": "SM_09_PistonConnectingRod",
+    "group": "SM_09_PistonConnectingRod_GRP",
+    "mesh": "SM_09_PistonConnectingRod_GEO",
+    "dimensions_cm": [
+      10.5,
+      44.0,
+      10.0
+    ],
+    "description": "Grooved piston crown, hollow skirt, wrist pin and I section connecting rod with bearing cap"
+  },
+  {
+    "name": "SM_10_WheelWithTire",
+    "group": "SM_10_WheelWithTire_GRP",
+    "mesh": "SM_10_WheelWithTire_GEO",
+    "dimensions_cm": [
+      64.86,
+      21.0,
+      64.487
+    ],
+    "description": "Steel rim with ten ventilation windows, five lug holes, hollow tire, four staggered tread rows"
+  },
+  {
+    "name": "SM_11_BareWheelRim",
+    "group": "SM_11_BareWheelRim_GRP",
+    "mesh": "SM_11_BareWheelRim_GEO",
+    "dimensions_cm": [
+      41.4,
+      21.0,
+      41.4
+    ],
+    "description": "Matching hollow steel rim without tire; open center, five lug holes and ten ventilation windows"
+  }
+]
