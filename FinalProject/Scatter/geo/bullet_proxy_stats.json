@@ -1,0 +1,17 @@
+{
+  "SM_01_OilBarrel": 418,
+  "SM_02_SuspensionSpring_Large": 60,
+  "SM_03_SuspensionSpring_Small": 94,
+  "SM_07_BrakeRotor": 206,
+  "SM_08_TransmissionGear": 108,
+  "SM_09_PistonConnectingRod": 138,
+  "SM_10_WheelWithTire": 990,
+  "SM_11_BareWheelRim": 434,
+  "SM_12_MotorHousing": 54,
+  "SM_13_Suspension_ControlArm": 53,
+  "SM_14_Suspension_SteeringKnuckle": 31,
+  "SM_15_Suspension_StabilizerLink": 29,
+  "SM_04_IBeam_100cm": 3,
+  "SM_05_IBeam_50cm": 3,
+  "SM_06_IBeam_30cm": 3
+}

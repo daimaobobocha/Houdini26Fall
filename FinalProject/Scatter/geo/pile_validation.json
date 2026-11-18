@@ -1,0 +1,12 @@
+{
+  "requested_count": 82,
+  "placed_count": 69,
+  "length_m": 2.2,
+  "width_m": 1.8,
+  "height_m": 1.0,
+  "density_percent": 65.0,
+  "clearance_m": 0.003,
+  "overlapping_proxy_pairs": [],
+  "outside_bounds": [],
+  "tested_pairs": 2346
+}

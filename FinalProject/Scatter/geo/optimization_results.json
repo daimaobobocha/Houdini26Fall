@@ -1,0 +1,36 @@
+{
+  "parameters": {
+    "length_cm": 439.0,
+    "width_cm": 501.0,
+    "height_cm": 183.0,
+    "density": 11.4
+  },
+  "piece_count": 80,
+  "old_compound_count": 8647,
+  "new_compound_count": 2807,
+  "baseline_144_frame_seconds": 107.79781436920166,
+  "optimized_144_frame_seconds": 6.739993095397949,
+  "same_frame_speedup": 15.993757388684232,
+  "optimized_full_build_seconds": 22.51,
+  "optimized_final_frame": 481,
+  "substeps_before_after": [
+    20,
+    8
+  ],
+  "iterations_before_after": [
+    80,
+    40
+  ],
+  "zero_intersections": true,
+  "all_pieces_supported": true,
+  "upright_grounded_barrel": true,
+  "tests": {
+    "slider_updates": 100,
+    "slider_seconds": 0.07253050804138184,
+    "slider_solver_cooks": 0,
+    "cache_hit_solver_cooks": 0,
+    "nonzero_build": true,
+    "zero_density": true,
+    "failed_build_keeps_previous": true
+  }
+}

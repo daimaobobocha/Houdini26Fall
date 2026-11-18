@@ -1,0 +1,21 @@
+{
+  "all_targeted_faces_assigned": true,
+  "maximum_outside_distance_m": {
+    "SM_01_OilBarrel": 0,
+    "SM_02_SuspensionSpring_Large": 0,
+    "SM_03_SuspensionSpring_Small": 0,
+    "SM_04_IBeam_100cm": 0,
+    "SM_05_IBeam_50cm": 0,
+    "SM_06_IBeam_30cm": 0,
+    "SM_07_BrakeRotor": 0,
+    "SM_08_TransmissionGear": 0,
+    "SM_09_PistonConnectingRod": 0,
+    "SM_10_WheelWithTire": 0,
+    "SM_11_BareWheelRim": 0,
+    "SM_12_MotorHousing": 0,
+    "SM_13_Suspension_ControlArm": 0,
+    "SM_14_Suspension_SteeringKnuckle": 0,
+    "SM_15_Suspension_StabilizerLink": 0
+  },
+  "seconds": 2.076157331466675
+}

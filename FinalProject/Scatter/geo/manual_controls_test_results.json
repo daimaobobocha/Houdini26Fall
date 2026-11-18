@@ -1,0 +1,9 @@
+{
+  "slider_updates": 100,
+  "slider_seconds": 0.07253050804138184,
+  "slider_solver_cooks": 0,
+  "cache_hit_solver_cooks": 0,
+  "nonzero_build": true,
+  "zero_density": true,
+  "failed_build_keeps_previous": true
+}
