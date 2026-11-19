@@ -1,0 +1,518 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @Terrain.usdc@,
+        @Rocks.usdc@,
+        @Astronaut.usdc@,
+        @Camera.usdc@,
+        @Lights.usdc@,
+        @Looks.usdc@
+    ]
+    upAxis = "Y"
+)
+
+over "World"
+{
+    over "Terrain" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Looks/Sandstone>
+    }
+
+    over "Rocks" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Looks/Sandstone>
+    }
+
+    over "Astronaut" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Looks/Expedition_Suit>
+    }
+
+    over "Lights" (
+        prepend apiSchemas = ["CollectionAPI:ShotLights"]
+    )
+    {
+        rel collection:ShotLights:includes = [
+            </World/Lights/Sun>,
+            </World/Lights/Sky>,
+        ]
+    }
+}
+
+def Scope "Render"
+{
+    def Scope "Products"
+    {
+        def Scope "Vars"
+        {
+            def RenderVar "Beauty" (
+                apiSchemas = ["KarmaRenderVarAPI"]
+                customData = {
+                    int[] HoudiniPrimEditorNodes = [4411]
+                }
+            )
+            {
+                uniform token dataType = "color4f" (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+                custom int driver:parameters:aov:clearValue = 0 (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+                custom token driver:parameters:aov:format = "color4h" (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+                string driver:parameters:aov:karma:filter = '["ubox",{}]' (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+                custom bool driver:parameters:aov:multiSampled = 1 (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+                custom string driver:parameters:aov:name = "C" (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+                uniform string sourceName = "C.*[LO]" (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+                uniform token sourceType = "lpe" (
+                    customData = {
+                        int[] HoudiniPrimEditorNodes = [4411]
+                    }
+                )
+            }
+        }
+
+        def RenderProduct "renderproduct" (
+            apiSchemas = ["HuskRenderProductAPI"]
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4233, 4262]
+            }
+        )
+        {
+            string driver:parameters:husk:artist = "" (
+                customData = {
+                    int[] HoudiniPrimEditorNodes = [4233]
+                }
+            )
+            string driver:parameters:husk:comment = "" (
+                customData = {
+                    int[] HoudiniPrimEditorNodes = [4233]
+                }
+            )
+            string driver:parameters:husk:hostname = "" (
+                customData = {
+                    int[] HoudiniPrimEditorNodes = [4233]
+                }
+            )
+            string driver:parameters:husk:OpenEXR:compression = "zips" (
+                customData = {
+                    int[] HoudiniPrimEditorNodes = [4233]
+                }
+            )
+            rel orderedVars = </Render/Products/Vars/Beauty>
+            token productName = "Dawning_Rocks.exr" (
+                customData = {
+                    int[] HoudiniPrimEditorNodes = [4233]
+                }
+            )
+            uniform token productType = "raster" (
+                customData = {
+                    int[] HoudiniPrimEditorNodes = [4233]
+                }
+            )
+        }
+    }
+
+    def RenderSettings "rendersettings" (
+        apiSchemas = ["KarmaRenderSettingsAPI"]
+        customData = {
+            int[] HoudiniPrimEditorNodes = [4241]
+        }
+    )
+    {
+        uniform token aspectRatioConformPolicy = "expandAperture" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        rel camera = </World/Cameras/Shot>
+        uniform float4 dataWindowNDC = (0, 0, 1, 1) (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        uniform bool disableDepthOfField = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        uniform bool disableMotionBlur = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        uniform token[] includedPurposes = ["default", "render"] (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        bool karma:global:abortmissingtexture = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        bool karma:global:autoraybias = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        token karma:global:bucketorder = "Middle" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        int karma:global:bucketsize = 32 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        float karma:global:cacheratio = 0.25 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        int karma:global:cachesize = 1000 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        float karma:global:colorlimit = 10 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        float karma:global:colorlimitindirect = 10 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        bool karma:global:colorlimitindlinked = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        bool karma:global:constrainmaxrough = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        token karma:global:convergence_mode = "Variance" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        float karma:global:dicingqualityscale = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:diffusecomponents = "diffuse" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom bool karma:global:enable_dof = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom string karma:global:engine = "cpu" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:exportcomponents = "diffuse reflect coat refract volume sss" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        bool karma:global:guiding_enable = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        int karma:global:guiding_samples = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:imagefilter = "[]" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        token karma:global:imagemode = "Progressive" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        token karma:global:light_sampling_mode = "Light Tree" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        float karma:global:light_sampling_quality = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        float karma:global:offscreenquality = 0.1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        int karma:global:pathtracedsamples = 16 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:pixelfilter = "gauss" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:global:pixelfiltersize = 2 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:pixeloracle = '["variance", {"variance": 0.01, "plane": "C", "minrays": -1, "ociomode": 0, "ociodisplay": "sRGB - Display", "ocioview": "", "ociocolorspace": "default"}]' (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        float karma:global:raybias = 0.001 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:refractcomponents = "refract" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        int karma:global:russianroulette_cutoff = 2 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        int karma:global:samplesperpixel = 9 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        int karma:global:screendoorlimit = 4 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:ssscomponents = "sss" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        bool karma:global:usecacheratio = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        string karma:global:volumecomponents = "volume" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom token karma:object:blurstyle = "Rotation Blur" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom bool karma:object:causticsenable = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:causticsroughnessclamp = 0.2 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom token karma:object:cull_backface = "Off" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom int karma:object:curve_basis = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom token karma:object:curve_style = "Rounded Curves" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:diffuselimit = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:diffusequality = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom int karma:object:geosamples = 2 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom int karma:object:instance_samples = 2 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom token karma:object:instance_vblur = "No Velocity Blur" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom bool karma:object:mblur = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom token karma:object:point_style = "Spheres" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:reflectlimit = 4 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:reflectquality = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:refractlimit = 4 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:refractquality = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom bool karma:object:samplesfromstage = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:ssslimit = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:sssquality = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom int karma:object:varianceaa_maxsamples = 9 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom int karma:object:varianceaa_minsamples = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:varianceaa_thresh = 0.01 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom token karma:object:vblur = "No Velocity Blur" (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:volumelimit = 0 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:volumequality = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:volumesteprate = 0.25 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom float karma:object:volumevblurscale = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        custom int karma:object:xformsamples = 2 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        uniform token[] materialBindingPurposes = ["full", ""] (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        uniform float pixelAspectRatio = 1 (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+        rel products = </Render/Products/renderproduct>
+        uniform int2 resolution = (1024, 576) (
+            customData = {
+                int[] HoudiniPrimEditorNodes = [4241]
+            }
+        )
+    }
+}
+

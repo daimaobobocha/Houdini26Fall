@@ -1,0 +1,40 @@
+ICA_13 — Houdini / Unreal VAT 课堂练习
+
+打开：ICA_13.hipnc
+制作环境：Houdini 22.0.429，SideFX Labs VAT 3.0。
+
+内容
+1. VELLUM_GHOST：Grid → Remesh → Vellum Cloth → Vellum Solver + POP Force。
+   布料从 Y=5 落到半径为 3 的球体上。50×50 初始网格，96 帧，24 FPS。
+2. RBD_FRACTURE：Sphere → RBD Material Fracture → RBD Bullet Solver。
+   半径 3、高度 7、Concrete、13 个一级散点、两级破碎，共 65 块。
+   Glue Strength=10，启用地面碰撞，包含正负方向初始速度。
+3. VAT_EXPORTS：Soft（1–96 帧）和 Rigid（1–90 帧）导出节点。
+
+使用
+- 动画缓存已随文件提供，可以直接拖动时间轴或播放，不需要重新计算。
+- 两个物体在对象层沿 X 轴分开，方便一起查看；各自 SOP 内仍是课堂原点坐标。
+- 进入对象，CACHE_OR_LIVE 的 Select Input：1=磁盘缓存，0=实时模拟。
+- 修改模拟参数后，需要切到 0，从第 1 帧重新播放；旧缓存不会自动更新。
+- OUT_VELLUM / OUT_RBD 是各自的最终输出；EXPLODED_VIEW 是碎块查看分支。
+- 导出节点的 Render All 会重新生成相应 VAT 文件。
+
+Unreal 导出文件
+export/ghost/geo/VAT_GHOST_mesh.fbx
+export/ghost/tex/：位置、旋转、颜色 EXR；VAT Importer 选择 Soft。
+export/rbd/geo/VAT_RBD_mesh.fbx
+export/rbd/tex/：位置、旋转、颜色 EXR；VAT Importer 选择 Rigid。
+文件已成功从 Houdini 导出；本次未在 Unreal 工程中导入验证。
+
+课堂对应与推定
+- 按提供的文字稿重建；没有老师的原始 HIP 或画面，因此不能保证逐参数一致。
+- 文字稿明确的尺寸、网格行列、帧数、落下高度、胶合强度等已采用。
+- 未明确记录的 Remesh 尺寸、噪声幅度、求解精度和随机参数采用了合理值。
+- 课堂最后关闭了 Chipping / Interior Detail；本文件同样关闭，可在 fracture 节点开启。
+- Rigid VAT 额外保留真实 Bullet 的 pivot、orient、w 属性，解决课堂未完成的导出环节。
+
+辅助文件
+geo/：两套各 96 帧的相对路径缓存。移动工程时请保留整个 ICA_13 文件夹。
+preview/：布料与破碎渲染预览。
+scripts/：重建、导出、预览和验证脚本；build_ica13.py 会重建并覆盖本练习文件及缓存。
+verification.json：重开 HIP 后逐帧检查记录。

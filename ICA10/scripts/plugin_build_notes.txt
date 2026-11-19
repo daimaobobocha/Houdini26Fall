@@ -1,0 +1,12 @@
+Houdini Engine compatibility build for the existing HoudiniTesting project
+
+Official source: https://github.com/sideeffects/HoudiniEngineForUnreal/tree/v4.0.1
+License: retained at HoudiniTesting/Plugins/HoudiniEngine/LICENSE.md
+Engine: Unreal 5.6 installed at D:/unreal/UE_5.6
+Houdini SDK: D:/Houdini Launcher/Houdini 22.0.429
+
+Built with the official RunUAT BuildPlugin command for Win64. Build completed successfully.
+Build.cs version/path detection adjusted to find the installed 22.0.429 SDK.
+Editor and runtime DLLs use the installed Houdini headers and libraries.
+Removed the optional EUW_APIExample.uasset sample: its official source package was saved in a newer Unreal version than 5.6.
+The tutorial's actual HDA import, curve-input edits, three cooks, save, and map reopening were verified in Unreal 5.6.

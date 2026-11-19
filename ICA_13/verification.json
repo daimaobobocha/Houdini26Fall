@@ -1,0 +1,67 @@
+{
+  "ghost": {
+    "frames_verified": 96,
+    "topology": [
+      4822,
+      9446
+    ],
+    "motion_samples": {
+      "1": [
+        -5.0,
+        5.0,
+        -5.0
+      ],
+      "48": [
+        -3.7236547470092773,
+        -0.7073027491569519,
+        -3.7084877490997314
+      ],
+      "96": [
+        -2.940737009048462,
+        -2.136664628982544,
+        -2.1547091007232666
+      ]
+    },
+    "errors": [],
+    "vat_files": {
+      "geo/VAT_GHOST_mesh.fbx": 2805759,
+      "tex/VAT_GHOST_pos.exr": 5285754,
+      "tex/VAT_GHOST_rot.exr": 7253124,
+      "tex/VAT_GHOST_col.exr": 9540,
+      "data/VAT_GHOST_data.json": 343
+    }
+  },
+  "rbd": {
+    "frames_verified": 96,
+    "topology": [
+      65,
+      65
+    ],
+    "motion_samples": {
+      "1": [
+        1.8685390949249268,
+        7.222112655639648,
+        -2.0774710178375244
+      ],
+      "48": [
+        4.482626914978027,
+        0.5218830108642578,
+        -5.2930755615234375
+      ],
+      "96": [
+        6.97647762298584,
+        0.17562532424926758,
+        -6.813596725463867
+      ]
+    },
+    "errors": [],
+    "final_surface_min_y": -0.016895294189453125,
+    "vat_files": {
+      "geo/VAT_RBD_mesh.fbx": 4496771,
+      "tex/VAT_RBD_pos.exr": 62522,
+      "tex/VAT_RBD_rot.exr": 71149,
+      "tex/VAT_RBD_col.exr": 843,
+      "data/VAT_RBD_data.json": 357
+    }
+  }
+}

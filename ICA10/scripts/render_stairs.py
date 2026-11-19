@@ -1,0 +1,22 @@
+import hou,os,numpy as np
+ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))).replace('\\','/')
+hou.hipFile.load(ROOT+'/ICA10.hipnc',suppress_save_prompt=True,ignore_load_warnings=True)
+def aim(node,eye,target):
+    eye=np.array(eye,dtype=float);back=eye-np.array(target,dtype=float);back/=np.linalg.norm(back)
+    right=np.cross([0,1,0],back);right/=np.linalg.norm(right);up=np.cross(back,right)
+    node.parmTuple('t').set(eye.tolist());node.parmTuple('r').set(hou.Matrix3(np.array([right,up,back]).flatten().tolist()).extractRotates())
+camera=hou.node('/obj').createNode('cam','STAIR_PREVIEW_CAMERA')
+aim(camera,(42,29,28),(0,9,-14));camera.setParms({'projection':'ortho','orthowidth':43,'resx':1400,'resy':1100})
+mat=hou.node('/mat').createNode('principledshader::2.0','Stair_Steel')
+mat.parmTuple('basecolor').set((.35,.4,.45));mat.setParms({'metallic':.35,'rough':.5})
+hou.node('/obj/STAIRCASE').parm('shop_materialpath').set(mat.path())
+for name,pos,intensity in [('Key',(0,40,10),.8),('Fill',(40,20,-10),.45),('Rim',(-20,30,-40),.7)]:
+    light=hou.node('/obj').createNode('hlight','STAIR_'+name)
+    light.setParms({'light_type':'distant','light_intensity':intensity});aim(light,pos,(0,8,-14))
+rop=hou.node('/out').createNode('ifd','RENDER_STAIR_PREVIEW')
+rop.setParms({'camera':camera.path(),'vm_picture':'$HIP/render/ICA10_Stairs.png','vm_renderengine':'pbrraytrace','vm_samplesx':4,'vm_samplesy':4,'vm_diffuselimit':0,'vm_maxraysamples':4})
+os.makedirs(ROOT+'/render',exist_ok=True)
+hou.hipFile.save()
+print('RENDER_START',flush=True)
+rop.render(frame_range=(1,1))
+print('RENDER_DONE',flush=True)

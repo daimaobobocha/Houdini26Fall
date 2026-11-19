@@ -1,0 +1,439 @@
+{
+  "version": "22.0.429",
+  "frames": 96,
+  "ghost": {
+    "1": {
+      "points": 4822,
+      "primitives": 9446,
+      "bbox": [
+        [
+          -5.0,
+          5.0,
+          -5.0
+        ],
+        [
+          5.0,
+          5.0,
+          5.0
+        ]
+      ],
+      "point_attributes": [
+        "v",
+        "has_pprevious",
+        "target_pt",
+        "hitnml",
+        "dPw",
+        "disableexternal",
+        "targetv",
+        "airresist",
+        "target_path",
+        "dP",
+        "overlap_self",
+        "hitv",
+        "hitpos",
+        "disableself",
+        "uv",
+        "dragnormal",
+        "dragtangent",
+        "patchname",
+        "mass",
+        "vprevious",
+        "force",
+        "fallback",
+        "P",
+        "pprevious",
+        "overlap_external",
+        "plast",
+        "pscale",
+        "hitnum"
+      ],
+      "primitive_type": "primType.Polygon"
+    },
+    "24": {
+      "points": 4822,
+      "primitives": 9446,
+      "bbox": [
+        [
+          -4.9827423095703125,
+          2.5754785537719727,
+          -4.998685836791992
+        ],
+        [
+          5.0354390144348145,
+          3.0106043815612793,
+          5.016432285308838
+        ]
+      ],
+      "point_attributes": [
+        "vlast",
+        "v",
+        "has_pprevious",
+        "target_pt",
+        "hitnml",
+        "dPw",
+        "disableexternal",
+        "targetv",
+        "airresist",
+        "target_path",
+        "dP",
+        "overlap_self",
+        "hitv",
+        "hitpos",
+        "disableself",
+        "uv",
+        "dragnormal",
+        "dragtangent",
+        "patchname",
+        "mass",
+        "vprevious",
+        "force",
+        "fallback",
+        "P",
+        "pprevious",
+        "overlap_external",
+        "plast",
+        "pscale",
+        "hitnum"
+      ],
+      "primitive_type": "primType.Polygon"
+    },
+    "48": {
+      "points": 4822,
+      "primitives": 9446,
+      "bbox": [
+        [
+          -4.111929416656494,
+          -0.9494997262954712,
+          -3.801997661590576
+        ],
+        [
+          3.9414258003234863,
+          3.0105044841766357,
+          4.16790246963501
+        ]
+      ],
+      "point_attributes": [
+        "vlast",
+        "v",
+        "has_pprevious",
+        "target_pt",
+        "hitnml",
+        "dPw",
+        "disableexternal",
+        "targetv",
+        "airresist",
+        "target_path",
+        "dP",
+        "overlap_self",
+        "hitv",
+        "hitpos",
+        "disableself",
+        "uv",
+        "dragnormal",
+        "dragtangent",
+        "patchname",
+        "mass",
+        "vprevious",
+        "force",
+        "fallback",
+        "P",
+        "pprevious",
+        "overlap_external",
+        "plast",
+        "pscale",
+        "hitnum"
+      ],
+      "primitive_type": "primType.Polygon"
+    },
+    "72": {
+      "points": 4822,
+      "primitives": 9446,
+      "bbox": [
+        [
+          -3.8713159561157227,
+          -2.267333507537842,
+          -3.8454599380493164
+        ],
+        [
+          3.7599987983703613,
+          3.0105743408203125,
+          3.7738234996795654
+        ]
+      ],
+      "point_attributes": [
+        "vlast",
+        "v",
+        "has_pprevious",
+        "target_pt",
+        "hitnml",
+        "dPw",
+        "disableexternal",
+        "targetv",
+        "airresist",
+        "target_path",
+        "dP",
+        "overlap_self",
+        "hitv",
+        "hitpos",
+        "disableself",
+        "uv",
+        "dragnormal",
+        "dragtangent",
+        "patchname",
+        "mass",
+        "vprevious",
+        "force",
+        "fallback",
+        "P",
+        "pprevious",
+        "overlap_external",
+        "plast",
+        "pscale",
+        "hitnum"
+      ],
+      "primitive_type": "primType.Polygon"
+    },
+    "90": {
+      "points": 4822,
+      "primitives": 9446,
+      "bbox": [
+        [
+          -3.624958038330078,
+          -2.3266079425811768,
+          -3.8033556938171387
+        ],
+        [
+          3.68496036529541,
+          3.0105905532836914,
+          3.9010889530181885
+        ]
+      ],
+      "point_attributes": [
+        "vlast",
+        "v",
+        "has_pprevious",
+        "target_pt",
+        "hitnml",
+        "dPw",
+        "disableexternal",
+        "targetv",
+        "airresist",
+        "target_path",
+        "dP",
+        "overlap_self",
+        "hitv",
+        "hitpos",
+        "disableself",
+        "uv",
+        "dragnormal",
+        "dragtangent",
+        "patchname",
+        "mass",
+        "vprevious",
+        "force",
+        "fallback",
+        "P",
+        "pprevious",
+        "overlap_external",
+        "plast",
+        "pscale",
+        "hitnum"
+      ],
+      "primitive_type": "primType.Polygon"
+    },
+    "96": {
+      "points": 4822,
+      "primitives": 9446,
+      "bbox": [
+        [
+          -3.733374834060669,
+          -2.386957883834839,
+          -3.901944398880005
+        ],
+        [
+          3.748713970184326,
+          3.01059889793396,
+          3.7960305213928223
+        ]
+      ],
+      "point_attributes": [
+        "vlast",
+        "v",
+        "has_pprevious",
+        "target_pt",
+        "hitnml",
+        "dPw",
+        "disableexternal",
+        "targetv",
+        "airresist",
+        "target_path",
+        "dP",
+        "overlap_self",
+        "hitv",
+        "hitpos",
+        "disableself",
+        "uv",
+        "dragnormal",
+        "dragtangent",
+        "patchname",
+        "mass",
+        "vprevious",
+        "force",
+        "fallback",
+        "P",
+        "pprevious",
+        "overlap_external",
+        "plast",
+        "pscale",
+        "hitnum"
+      ],
+      "primitive_type": "primType.Polygon"
+    }
+  },
+  "rbd": {
+    "1": {
+      "points": 65,
+      "primitives": 65,
+      "bbox": [
+        [
+          -2.9961495399475098,
+          4.0,
+          -2.9961495399475098
+        ],
+        [
+          2.9961495399475098,
+          10.0,
+          2.9961495399475098
+        ]
+      ],
+      "point_attributes": [
+        "pivot",
+        "orient",
+        "P",
+        "v",
+        "w"
+      ],
+      "primitive_type": "primType.PackedGeometry"
+    },
+    "24": {
+      "points": 65,
+      "primitives": 65,
+      "bbox": [
+        [
+          -3.3871827125549316,
+          -0.5562748312950134,
+          -3.221978187561035
+        ],
+        [
+          3.415546178817749,
+          5.8716630935668945,
+          3.1565046310424805
+        ]
+      ],
+      "point_attributes": [
+        "pivot",
+        "orient",
+        "P",
+        "v",
+        "w"
+      ],
+      "primitive_type": "primType.PackedGeometry"
+    },
+    "48": {
+      "points": 65,
+      "primitives": 65,
+      "bbox": [
+        [
+          -6.165316104888916,
+          -1.1166317462921143,
+          -8.660755157470703
+        ],
+        [
+          7.5653557777404785,
+          5.753467559814453,
+          7.852463245391846
+        ]
+      ],
+      "point_attributes": [
+        "pivot",
+        "orient",
+        "P",
+        "v",
+        "w"
+      ],
+      "primitive_type": "primType.PackedGeometry"
+    },
+    "72": {
+      "points": 65,
+      "primitives": 65,
+      "bbox": [
+        [
+          -6.413764476776123,
+          -1.2369182109832764,
+          -13.3145170211792
+        ],
+        [
+          10.873357772827148,
+          4.916479110717773,
+          11.715414047241211
+        ]
+      ],
+      "point_attributes": [
+        "pivot",
+        "orient",
+        "P",
+        "v",
+        "w"
+      ],
+      "primitive_type": "primType.PackedGeometry"
+    },
+    "90": {
+      "points": 65,
+      "primitives": 65,
+      "bbox": [
+        [
+          -6.319878101348877,
+          -1.6724276542663574,
+          -15.692731857299805
+        ],
+        [
+          11.7507905960083,
+          4.439795970916748,
+          12.85689640045166
+        ]
+      ],
+      "point_attributes": [
+        "pivot",
+        "orient",
+        "P",
+        "v",
+        "w"
+      ],
+      "primitive_type": "primType.PackedGeometry"
+    },
+    "96": {
+      "points": 65,
+      "primitives": 65,
+      "bbox": [
+        [
+          -6.303475856781006,
+          -1.6436225175857544,
+          -16.2823486328125
+        ],
+        [
+          12.183233261108398,
+          4.43227481842041,
+          12.72213077545166
+        ]
+      ],
+      "point_attributes": [
+        "pivot",
+        "orient",
+        "P",
+        "v",
+        "w"
+      ],
+      "primitive_type": "primType.PackedGeometry"
+    }
+  }
+}
